@@ -1,7 +1,8 @@
 verbose = True
 
-order = "sample_order.data"
-updates = "sample_updates.data"
+path = "day5/"
+order = path + "sample_order.data"
+updates = path +  "sample_updates.data"
 in_page_order = []
 in_page_updates = []
 
@@ -18,6 +19,7 @@ def get_data():
         print(in_page_order)
         print(in_page_updates)
 
+get_data()
 
 page_orders = {}
 for i in in_page_order:
